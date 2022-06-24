@@ -86,6 +86,7 @@ if(searchdata<=12){
 }
 else{
   alert(`number ${searchdata} is not available.`);
+  this.setState({ persons: []});
 }
   
 }
